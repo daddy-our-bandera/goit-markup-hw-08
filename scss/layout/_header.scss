@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  gap: 50px;
+  display: flex;
+}
+
+.header__contact {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms var(--cubic);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-txt-cl);
+  }
+}
+
+.header__svg {
+  fill: currentColor;
+  margin-right: 10px;
+}

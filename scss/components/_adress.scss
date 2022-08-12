@@ -1,0 +1,35 @@
+.footer__address {
+  font-style: normal;
+}
+.address__list:last-child {
+  margin: 0;
+}
+.address__item {
+  margin-bottom: 9px;
+}
+.address__link {
+  transition: color 250ms var(--cubic);
+
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:focus,
+  &:hover {
+    color: var(--accent-txt-cl);
+  }
+}
+.address__link-geo {
+  transition: color 250ms var(--cubic);
+
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  &:focus,
+  &:hover {
+    color: var(--accent-txt-cl);
+  }
+}

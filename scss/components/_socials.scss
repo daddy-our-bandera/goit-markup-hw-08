@@ -1,0 +1,41 @@
+.footer__socials {
+  margin-left: 70px;
+  margin-right: 93px;
+}
+.socials__slogan {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-txt-bg-cl);
+}
+.socials__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  transition: background-color 250ms var(--cubic);
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-txt-cl);
+  }
+}
+.socials__icon {
+  fill: var(--light-txt-bg-cl);
+}

@@ -1,0 +1,20 @@
+:root {
+  /* fonts */
+  --main-font: 'roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* text colors */
+  --main-txt-cl: #212121;
+  --accent-txt-cl: #2196f3;
+  --light-txt-bg-cl: #ffffff;
+  --secondary-txt-color: #757575;
+  /* bg colors */
+
+  --dark-bg-cl: #2f303a;
+  --white-bg-collors: #f5f4fa;
+  --btn-focus-bg-cl: #188ce8;
+  /* others */
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --indent: 30px;
+  --items: 3;
+}

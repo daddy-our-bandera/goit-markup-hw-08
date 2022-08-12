@@ -1,0 +1,44 @@
+.toggle__list {
+  justify-content: center;
+
+  display: flex;
+  padding-bottom: 16px;
+  margin-bottom: 34px;
+  margin-bottom: 50px;
+  gap: 9px;
+}
+.toggle__btn {
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  border-radius: 4px;
+  border: none;
+
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
+    box-shadow 250ms var(--cubic);
+
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  background-color: var(--white-bg-collors);
+  &:hover,
+  &:focus {
+    color: var(--light-txt-bg-cl);
+    background-color: var(--accent-txt-cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+
+  &--current {
+    color: var(--light-txt-bg-cl);
+    background-color: var(--accent-txt-cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}

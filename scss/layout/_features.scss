@@ -1,0 +1,38 @@
+.features {
+  @extend %saction;
+}
+.features__svg-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+
+  background-color: var(--white-bg-collors);
+  border-radius: 4px;
+}
+.features__list {
+  display: flex;
+  gap: 30px;
+}
+.features__item {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 270px;
+}
+.features__txt {
+  margin-bottom: 9px;
+
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features__info {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color);
+}
