@@ -5,12 +5,11 @@
   background-color: var(--dark-bg-cl);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/baccground/bacground.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
-
   background-size: cover;
   max-width: 1600px;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -20,15 +19,23 @@
 .hero__tittle {
   margin-bottom: 30px;
   text-align: center;
-  width: 696px;
+  max-width: 360px;
+
   margin-left: auto;
   margin-right: auto;
 
   font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
+  font-size: 26px;
+  line-height: calc(42 / 26);
   letter-spacing: 0.06em;
+
   text-transform: uppercase;
   color: var(--light-txt-bg-cl);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+  }
 }

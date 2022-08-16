@@ -1,6 +1,10 @@
 .footer__socials {
-  margin-left: 70px;
-  margin-right: 93px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 85px;
+    margin-right: 93px;
+  }
 }
 .socials__slogan {
   display: block;

@@ -1,6 +1,10 @@
 .caption {
   padding-top: 0;
   padding-bottom: 94px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }
 .caption__list {
   gap: 30px;
@@ -9,7 +13,6 @@
 .caption__item {
   position: relative;
 }
-
 .caption__desc-block {
   display: block;
   position: absolute;

@@ -1,10 +1,26 @@
 .footer {
   padding-top: 60px;
-  padding-bottom: 64px;
+  padding-bottom: 60px;
   background-color: var(--dark-bg-cl);
 }
 .footer__container {
-  position: relative;
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  gap: 60px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 75px;
+    padding-right: 75px;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    gap: 0;
+    text-align: start;
+    display: flex;
+    align-items: baseline;
+  }
 }
