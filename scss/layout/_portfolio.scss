@@ -1,9 +1,14 @@
 .portfolio {
   @extend %saction;
 }
+
 .portfolio__link {
   transition: box-shadow 250ms var(--cubic);
   display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
   &:hover,
   &:focus {
@@ -49,6 +54,7 @@
   padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  flex-grow: 1;
 }
 .overlay__project {
   font-size: 18px;
