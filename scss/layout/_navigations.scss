@@ -7,6 +7,9 @@
 .header__nav-list {
   display: flex;
   gap: 50px;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 .header__nav-link {
   display: block;
@@ -37,6 +40,8 @@
     border-radius: 2px;
     background-color: var(--accent-txt-cl);
   }
+
+  transition: color 250ms var(--cubic);
   &:focus,
   &:hover {
     color: var(--accent-txt-cl);
