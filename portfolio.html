@@ -31,7 +31,7 @@
     <header class="header">
       <div class="header__container container">
         <nav class="header__nav">
-          <a class="header__logo logo--mode-dark link" href="./index.html">
+          <a class="header__logo header__logo--margin logo--mode-dark link" href="./index.html">
             <span class="logo__web">Web</span>Studio</a
           >
           <button class="menu-btn" type="button" data-menu-open>
@@ -101,13 +101,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img1.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-1@1x_lg.jpg 1x,
+                        ./images/portfolio/img-1@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-1@1x_md.jpg 1x,
+                        ./images/portfolio/img-1@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-1@1x_sm.jpg 1x,
+                        ./images/portfolio/img-1@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-1@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -122,16 +146,41 @@
                 </div>
               </a>
             </li>
+
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img2.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-2@1x_lg.jpg 1x,
+                        ./images/portfolio/img-2@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-2@1x_md.jpg 1x,
+                        ./images/portfolio/img-2@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-2@1x_sm.jpg 1x,
+                        ./images/portfolio/img-2@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-2@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -149,13 +198,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img3.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-3@1x_lg.jpg 1x,
+                        ./images/portfolio/img-3@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-3@1x_md.jpg 1x,
+                        ./images/portfolio/img-3@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-3@1x_sm.jpg 1x,
+                        ./images/portfolio/img-3@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-3@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -173,13 +246,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img4.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-4@1x_lg.jpg 1x,
+                        ./images/portfolio/img-4@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-4@1x_md.jpg 1x,
+                        ./images/portfolio/img-4@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-4@1x_sm.jpg 1x,
+                        ./images/portfolio/img-4@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-4@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -197,13 +294,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img5.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-5@1x_lg.jpg 1x,
+                        ./images/portfolio/img-5@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-5@1x_md.jpg 1x,
+                        ./images/portfolio/img-5@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-5@1x_sm.jpg 1x,
+                        ./images/portfolio/img-5@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-5@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -221,13 +342,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img6.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-6@1x_lg.jpg 1x,
+                        ./images/portfolio/img-6@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-6@1x_md.jpg 1x,
+                        ./images/portfolio/img-6@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-6@1x_sm.jpg 1x,
+                        ./images/portfolio/img-6@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-6@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -245,13 +390,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img7.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-7@1x_lg.jpg 1x,
+                        ./images/portfolio/img-7@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-7@1x_md.jpg 1x,
+                        ./images/portfolio/img-7@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-7@1x_sm.jpg 1x,
+                        ./images/portfolio/img-7@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-7@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -269,13 +438,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img8.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-8@1x_lg.jpg 1x,
+                        ./images/portfolio/img-8@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-8@1x_md.jpg 1x,
+                        ./images/portfolio/img-8@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-8@1x_sm.jpg 1x,
+                        ./images/portfolio/img-8@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-8@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -293,13 +486,37 @@
             <li class="portfolio__item portfolio__item--card-set item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__overlay">
-                  <img
-                    class="overlay__img"
-                    src="./images/portfolio/img9.jpg"
-                    alt="project images"
-                    width="100%"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img-9@1x_lg.jpg 1x,
+                        ./images/portfolio/img-9@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-9@1x_md.jpg 1x,
+                        ./images/portfolio/img-9@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img-9@1x_sm.jpg 1x,
+                        ./images/portfolio/img-9@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="overlay__img"
+                      src="./images/portfolio/img-9@1x_sm.jpg"
+                      alt="project images"
+                    />
+                  </picture>
                   <div class="overlay__block">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и

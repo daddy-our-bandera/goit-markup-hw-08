@@ -32,7 +32,7 @@
     <header class="header">
       <div class="header__container container">
         <nav class="header__nav">
-          <a class="header__logo logo--mode-dark link" href="./index.html">
+          <a class="header__logo header__logo--margin logo--mode-dark link" href="./index.html">
             <span class="logo__web">Web</span>Studio</a
           >
           <button class="menu-btn" type="button" data-menu-open>
@@ -141,19 +141,42 @@
           <h2 class="caption__tittle saction-tittle">Чем мы занимаемся</h2>
           <ul class="caption__list list">
             <li class="caption__item">
-              <img src="./images/main/image1.jpg" alt="backend" width="370" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="/images/caption/img-1@1x_lg.jpg 1x, ./images/caption/img-1@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+                <img src="/images/caption/img-1@1x_lg.jpg" alt="backend" width="370" />
+              </picture>
               <div class="caption__desc-block">
                 <p class="caption__desc">Десктопные приложения</p>
               </div>
             </li>
+
             <li class="caption__item">
-              <img src="./images/main/image2.jpg" alt="frontend" width="370" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/caption/img-2@1x_lg.jpg 1x, ./images/caption/img-2@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+                <img src="./images/caption/img-2@1x_lg.jpg" alt="backend" width="370" />
+              </picture>
               <div class="caption__desc-block">
                 <p class="caption__desc">Мобильные приложения</p>
               </div>
             </li>
+
             <li class="caption__item">
-              <img src="./images/main/image3.jpg" alt="designe" width="370" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/caption/img-3@1x_lg.jpg 1x, ./images/caption/img-3@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+                <img src="./images/caption/img-3@1x_lg.jpg" alt="backend" width="370" />
+              </picture>
               <div class="caption__desc-block">
                 <p class="caption__desc">Дизайнерские решения</p>
               </div>
@@ -167,13 +190,33 @@
           <h2 class="team__tittle saction-tittle">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-              <img
-                class="team__card"
-                src="./images/main/member1.jpg"
-                alt="team card 1"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/img-1@1x_lg.jpg 1x, ./images/team/img-1@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-1@1x_md.jpg 1x, ./images/team/img-1@2x_md.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-1@1x_sm.jpg 1x, ./images/team/img-1@2x_sm.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="team__card"
+                  src="./images/team/img-1@1x_sm.jpg"
+                  alt="team card 1"
+                  width="270"
+                  height="260"
+                />
+              </picture>
+
               <div class="team__wrapper">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__profession">Product Designer</p>
@@ -234,13 +277,32 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__card"
-                src="./images/main/member2.jpg"
-                alt="team card 2"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/img-2@1x_lg.jpg 1x, ./images/team/img-2@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-2@1x_md.jpg 1x, ./images/team/img-2@2x_md.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-2@1x_sm.jpg 1x, ./images/team/img-2@2x_sm.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="team__card"
+                  src="./images/team/img-2@1x_sm.jpg"
+                  alt="team card 2"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="team__wrapper">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__profession">Frontend Developer</p>
@@ -301,13 +363,32 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__card"
-                src="./images/main/member3.jpg"
-                alt="team card 3"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/img-3@1x_lg.jpg 1x, ./images/team/img-3@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-3@1x_md.jpg 1x, ./images/team/img-3@2x_md.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-3@1x_sm.jpg 1x, ./images/team/img-3@2x_sm.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="team__card"
+                  src="./images/team/img-3@1x_sm.jpg"
+                  alt="team card 3"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="team__wrapper">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__profession">Marketing</p>
@@ -368,13 +449,32 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__card"
-                src="./images/main/member4.jpg"
-                alt="team card 4"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/img-4@1x_lg.jpg 1x, ./images/team/img-4@2x_lg.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-4@1x_md.jpg 1x, ./images/team/img-4@2x_md.jpg 2x"
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-4@1x_sm.jpg 1x, ./images/team/img-4@2x_sm.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="team__card"
+                  src="./images/team/img-4@1x_sm.jpg"
+                  alt="team card 4"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="team__wrapper">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__profession">UI Designer</p>

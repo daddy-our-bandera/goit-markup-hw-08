@@ -12,10 +12,17 @@
 }
 
 .header__list {
-  gap: 50px;
+  gap: 10px;
+
   display: flex;
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1200px) {
+    gap: 50px;
   }
 }
 
@@ -24,7 +31,7 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-
+  justify-content: flex-end;
   transition: color 250ms var(--cubic);
   font-weight: 500;
   font-size: 14px;
@@ -34,6 +41,9 @@
   &:focus,
   &:hover {
     color: var(--accent-txt-cl);
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0;
   }
 }
 

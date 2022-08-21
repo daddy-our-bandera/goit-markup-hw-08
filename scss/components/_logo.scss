@@ -10,8 +10,11 @@
   }
 }
 
-.header__logo {
+.header__logo--margin {
   margin-right: 93px;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
 }
 .logo--mode-dark {
   font-family: var(--secondary-font);
