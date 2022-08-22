@@ -35,11 +35,11 @@
   // desktop
   @media screen and (min-width: 1200px) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero/img-@1x_lg.png);
+      url(../images/backround/Img-@1x_lg.png);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero/img-@2x_lg.png);
+        url(../images/backround/Img-@2x_lg.png);
     }
   }
 }
