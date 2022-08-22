@@ -1,13 +1,4 @@
 .mailing__form {
-  align-items: center;
-
-  @media screen and (min-width: 768px) {
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: inline-flex;
-    margin: auto;
-  }
   @media screen and (min-width: 1200px) {
     display: flex;
   }
@@ -25,16 +16,21 @@
 }
 .mailing__input {
   cursor: pointer;
-  width: 100%;
+  max-width: 100%;
   height: 50px;
   padding-left: 16px;
-  margin-right: 12px;
-  margin-bottom: 20px;
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 767px) {
     width: 450px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+    margin-bottom: 20px;
   }
   @media screen and (min-width: 1200px) {
-    margin-bottom: 0;
+    margin-right: 12px;
     width: 358px;
   }
 
@@ -52,6 +48,7 @@
   }
 }
 .mailing__btn {
+  display: block;
   display: flex;
   align-items: center;
   text-align: center;

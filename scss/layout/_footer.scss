@@ -12,9 +12,8 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 75px;
-    padding-right: 75px;
-    justify-content: space-between;
+
+    justify-content: space-around;
   }
   @media screen and (min-width: 1200px) {
     flex-direction: row;
